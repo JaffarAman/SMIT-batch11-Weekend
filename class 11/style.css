@@ -1,0 +1,189 @@
+/* .myList{
+
+    background-color: red;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.myList li{
+        background-color: yellow;
+
+} */
+
+/* .myTable{
+    border: 1px solid red;
+}
+.myTable tr{
+    border: 1px solid blue;
+    background-color: red;
+}
+.myTable td{
+    background-color: blue;
+} */
+
+/* .myTable td,
+.myTable th {
+  border: 1px solid red;
+  font-size: 20px;
+} */
+
+/* .myTable th {
+    border: 1px solid red;
+    font-size: 20px
+} */
+
+/* .myTable td,
+.myTable th {
+  border: 1px solid blue;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.myTable {
+  border-collapse: separate;
+    border-spacing: 20px;
+} */
+
+/* .myTable tr{
+    margin: 20px 0;
+    padding: 20px 0;    
+} */
+
+/* .myTable {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.myTable td{
+    text-align: center; */
+/* border: 1px solid red; */
+/* background-color: lightgray; */
+
+/* }
+
+.myTable tr{
+    background-color: lightgrey;
+}
+
+.myTable th{
+    background-color: grey;
+}
+
+.myTable td:hover{
+    background-color: grey;
+}
+.myTable tr:hover{
+    background-color: lightskyblue;
+} */
+
+/* .myTable{ */
+/* border: 1px solid red; */
+/* width: 100%; */
+/* border-collapse: collapse; */
+/* empty-cells: hide;
+} */
+
+/* .myTable td{
+    text-align: center;
+    border: 1px solid red;
+}
+
+.myTable tr{
+    background-color: lightgrey;
+}
+
+.myTable th{
+    background-color: black;
+    color: white;
+}
+
+.myTable tr:hover{
+    background-color: grey;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  /* border: 1px solid red; */
+  padding: 10px 100px;
+  background-color: lightgray;
+}
+
+.logo {
+  display: inline-block;
+}
+.navlinks {
+  display: inline-block;
+  /* border: 1px solid red; */
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 120px;
+  height: 50px;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 22px;
+}
+
+.loginForm {
+  width: 50%;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.fieldset {
+  padding: 20px 30px;
+}
+.fieldContainer {
+  margin-top: 20px;
+}
+.fieldContainer label {
+  display: block;
+}
+.fieldContainer input {
+  width: 100%;
+  outline: none;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+}
+.fieldContainer button {
+  width: 100%;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.fieldset legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.parent {
+  background-color: lightcyan;
+  height: 90vh;
+}
