@@ -1,0 +1,116 @@
+.box1 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  /* position: relative; */
+  /* left: 50px; */
+  /* top: 100px; */
+  /* left: 50px; */
+  /* left: ;
+    right: ;
+    top: ;
+    bottom: ; */
+}
+
+.box2 {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  /* bottom: 0; */
+  bottom: 0;
+  right: 0;
+  /* top: 100px;
+  left: 100px; */
+  /* bottom: 100px; */
+  /* top: -100px;
+  right: 100px; */
+}
+
+/* .box3 {
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+} */
+
+/* .box100 {
+  background-color: red;
+
+  position: absolute;
+  z-index: -1; */
+/* bottom: 200px; */
+/* width: 300px; */
+/* } */
+
+/* .box200 {
+  background-color: blue; */
+/* position: absolute; */
+/* width: 300px; */
+/* position: relative;
+  z-index: 1; */
+/* z-index: 10; */
+/* } */
+
+/* .chatIcon{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;    
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.parent {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  position: relative;
+} */
+
+.parent img {
+  width: 100%;
+  /* height: 200px; */
+}
+.crossBtn {
+  background-color: red;
+  position: absolute;
+  /* top: 80px;
+    left: 260px; */
+  /* bottom: 0; */
+  top: 0;
+  right: 5px;
+}
+
+.chatIcon {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  border-radius: 50%;
+  /* position: absolute; */
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  /* bottom: ; */
+  /* right: 20px;     */
+}
+.navbar {
+  background-color: red;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.bgImg {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  background-image: url("./images/car2.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
