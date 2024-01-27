@@ -1,0 +1,130 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  /* background-color: red orange ; */
+  /* background: linear-gradient(to top, red 50% , orange, hotpink); */
+
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box10 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box20 {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}
+
+.box30 {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  /* display: flex;
+  justify-content: center; */
+  /* border: 10px solid black; */
+  /* height: 100vh; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 500px; */
+  /* align-items: center; */
+}
+
+.parent {
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
+  height: 100vh;
+}
+
+.newParent {
+  /* border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; */
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  /* justify-content: space-around; */
+  /* gap: 20px; */
+  justify-content: end;
+}
+
+.box100 {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}
+.box200 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+
+.box300 {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+}
+
+.box400 {
+  background-color: purple;
+  width: 250px;
+  height: 250px;
+}
+
+.flexbox {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box1000 {
+  background-color: purple;
+  /* width: 250px; */
+  /* height: 250px; */
+  flex: 1;
+  /* width: 50%; */
+}
+.box2000 {
+  background-color: green;
+  /* width: 250px; */
+  /* height: 250px; */
+  flex: 2;
+  /* width: 50%; */
+}
