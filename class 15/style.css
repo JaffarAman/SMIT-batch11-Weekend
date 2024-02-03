@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stickyBox{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.headerWrapper {
+  border-bottom: 1px solid grey;
+  display: flex;
+  padding: 15px;
+}
+.leftcontainer {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.leftcontainer .logo img {
+  width: 85px;
+  height: 25px;
+}
+.navLinks ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.navLinks li {
+  display: flex;
+  gap: 5px;
+}
+.navLinks li i {
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+.rightcontainer {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+.searchBar {
+  border: 2px solid #e4ebe4;
+  width: 300px;
+  height: 36px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  padding: 0 8px;
+}
+.searchBar i {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+.searchBar input {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 22px;
+}
+
+.searchBar input::placeholder {
+  color: black;
+}
+
+.searchBar select {
+  width: 30%;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  border: none;
+}
+
+.btnWrpp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btnWrpp button,
+.section1Btn button {
+  background-color: #108a00;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+}
+
+.extraLinks {
+  padding: 15px;
+}
+.extraLinks ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.section1 {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 30px;
+}
+
+.sec1content {
+  width: 40%;
+}
+.sec1content h1 {
+  font-size: 80px;
+  color: #108a00;
+}
+.sec1content p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.sec1Img {
+  width: 40%;
+}
+.sec1Img img {
+  max-width: 400px;
+  height: 300px;
+}
+
+.section1Btn button{
+    margin-top: 20px;
+}
+.centerLayout{
+    width: 90%;
+    margin: 0 auto;
+}
