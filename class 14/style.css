@@ -1,0 +1,154 @@
+.parent {
+  border: 5px solid red;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-content: center; */
+  /* display: flex;
+  flex-direction: column-reverse;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center;
+  align-items: center; */
+  /* justify-content: space-evenly; */
+  /* gap: 20px; */
+  /* flex-direction: row-reverse; */
+}
+
+.parent .box1 {
+  background-color: orange;
+  height: 100px;
+  /* flex: 1; */
+  width: 200px;
+  order: 3;
+}
+.parent .box2 {
+  background-color: purple;
+  height: 100px;
+  width: 200px;
+  /* flex: 1; */
+  order: 1;
+}
+.parent .box3 {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  /* flex: 1; */
+  order: 2;
+  flex-shrink: 2;
+  align-self: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box10 {
+  background-color: red;
+  width: 50%;
+}
+
+.newparent {
+  display: flex;
+  height: 500px;
+
+  background: linear-gradient(
+    100deg,
+    #aceace,
+    #48e1cf,
+    #cf9dbb,
+    #70e4ce,
+    #88e4c5
+  );
+}
+.box100 {
+  /* background-color: red; */
+  width: 300px;
+}
+.box200 {
+  /* background-color: green; */
+  width: 300px;
+}
+.box300 {
+  /* background-color: blue; */
+  width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  .newparent {
+    flex-wrap: wrap;
+  }
+  .box100,
+  .box200,
+  .box300 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* @media only screen and (max-width: 500px) {
+  .box10 {
+    width: 100%;
+  }
+  .box3{
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .box10 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .box10 {
+    width: 100%;
+  }
+} */
+
+/* .ICON{
+  color: red;
+} */
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+
+  font-weight: 700;
+}
+
+.rotate-center {
+  -webkit-animation: rotate-center 0.6s ease-in-out infinite both;
+  animation: rotate-center 0.6s ease-in-out infinite both;
+}
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

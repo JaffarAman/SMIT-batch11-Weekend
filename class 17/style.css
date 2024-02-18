@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 120px;
+  height: 60px;
+  object-fit: cover;
+}
+/* .mySlider .carousel {
+  height: 300px;
+} */
+/* .mySlider img{
+  height: 100% !important ;
+} */
+
+
+.mySlider .carousel-item{
+  height: 400px;
+}
+
+.mySlider .carousel-item img{
+  height: 100%;
+}
+.cardImg{
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.myModal{
+  min-width: 90%;
+}
