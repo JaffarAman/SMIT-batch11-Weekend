@@ -1,0 +1,65 @@
+/* h1{
+    background-color:red;
+    color :white;
+} */
+
+/* class target . */
+/* .heading{
+    background-color: red;
+} */
+
+/* id target # */
+/* #heading3{
+    background-color: blue;
+} */
+
+
+
+
+.heading10{
+    /* background-color:  #cf8084; */
+    /* background-color: rgb( 0, 255 , 0 ); */
+    /* background-color: #cb1f25c1; */
+    background-color: rgba(255, 0, 0 , 0.5);
+}
+
+/* 
+.para{
+    color: blue;
+    font-size:30px ;
+    font-style:italic ;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.h1{
+    font-weight: normal;
+    text-decoration: underline  red ; 
+}
+
+a{
+    text-decoration: none;
+} */
+
+.para2{
+    color: red;
+}
+
+.lorem{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.para3{
+    line-height: 18px;
+    word-spacing: 18px;
+    letter-spacing: 18px;
+}
+
+
+.newHeading{
+    text-align: justify;
+}

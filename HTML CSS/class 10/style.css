@@ -1,0 +1,44 @@
+/* h1{
+    color: red;
+}
+p{
+    color: blue;
+} */
+/* .className{
+
+}
+
+#idName{
+
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+.box2{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+
+/* .box100 p{
+        color: red;
+} */
+
+.box100 > p{
+    color: red;
+}
+
+ul li{
+    display: inline-block;
+}

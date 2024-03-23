@@ -1,0 +1,7 @@
+.parent div {
+  width: 300px;
+  flex-shrink: 0;
+}
+.customClass {
+  background-color: red;
+}

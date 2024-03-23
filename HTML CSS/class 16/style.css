@@ -1,0 +1,14 @@
+/* .customBtn { */
+/* jitni humne CSS prhi hai sub apply hogi */
+/* width: 50%;
+  font-size: 32px;
+}   */
+
+.customDropdown a:hover {
+  background-color: red !important ;
+  color: white;
+}
+
+.heading100{
+  background-color: royalblue;
+}
