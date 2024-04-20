@@ -1,0 +1,126 @@
+/* tag selector */
+h1{
+    color: red;
+    font-size: 16px ;
+    text-align: center;
+    text-shadow: -5px -5px 5px black;
+}
+
+
+.para{
+    color: blue;
+}
+
+/* .para{
+    color: green;
+} */
+
+
+.para span{
+    font-weight: bold;
+    color: orange;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+} 
+
+
+/* .styleText{
+    font-weight: bold;
+    color: red;
+} */
+
+
+/* .newPara{
+    color: red;
+}
+
+.newPara::first-letter{
+    color: blue;
+    font-size: 32px;
+} */
+
+/* .newPara:{
+    color: black;
+} */
+
+/* .newPara span{
+    color: black;
+} */
+
+
+/* .btn{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+    color: black;
+} */
+
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.links a:link{
+    color: green;
+}
+
+.links a:visited{
+    color: red ;
+    text-decoration: underline;
+}
+
+.links a:active{
+    color : yellow
+}
+
+
+.input:focus{
+    background-color: blue;
+}
+
+.box1{
+    background-color: red;
+    /* width: 500px; */
+    /* width: 50%; */
+    /* max-width: 500px; */
+    /* min-width: 300px; */
+    /* text-align: center; */
+
+    width: 400px;
+    /* min-height: 200px;    
+    min-height: 200px;
+         */
+    height: 100px;
+    overflow: auto;
+
+}
+
+/* .box2{
+    background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
