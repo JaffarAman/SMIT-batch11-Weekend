@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+}
+
+
+.parent {
+    width: 50%;
+    margin: 80px auto;
+}
+
+.input input {
+    width: 100%;
+    padding: 16px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    cursor:
+        pointer;
+}
+
+.table td:hover {
+    background-color: #eee;
+}
