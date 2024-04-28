@@ -69,15 +69,31 @@ function seeMore(anchorElem) {
 
 
 
-function showPass(btnElem) {
-    console.log("btnElem", btnElem.innerHTML)
-    var password = document.getElementById("password")
+// function showPass(btnElem) {
+//     console.log("btnElem", btnElem.innerHTML)
+//     var password = document.getElementById("password")
 
-    if (btnElem.innerHTML == "SHOW") {
-        btnElem.innerHTML = "HIDE"
-        password.type = "text"
-    } else {
-        btnElem.innerHTML = "SHOW"
-        password.type = "password"
-    }
+//     if (btnElem.innerHTML == "SHOW") {
+//         btnElem.innerHTML = "HIDE"
+//         password.type = "text"
+//     } else {
+//         btnElem.innerHTML = "SHOW"
+//         password.type = "password"
+//     }
+// }
+
+
+function toggleImg() {
+    // var image = document.getElementById("image")
+    // console.log("image", image.className)
+    // if (image.className == "show") {
+    //     image.className = "hidden"
+
+    // } else {
+    //     image.className = "show"
+
+    // }
+    var image = document.getElementById("image")
+    // console.log(image.className)
+    image.className += " border"
 }
