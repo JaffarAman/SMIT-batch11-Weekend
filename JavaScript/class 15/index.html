@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <button onclick="foo()">CLICk!</button> -->
+    <!-- <a href="javascript:void(0)" onclick="foo()"> CLICK ! </a> -->
+
+    <!-- onclick -->
+
+    <!-- <button onmouseenter="foo()" onmouseout="foo()">CLICK!</button> -->
+    <!-- <button onmouseover="foo('IN')" onmouseout="foo('OUT')">CLICK!</button> -->
+
+    <!-- 
+    <img  id="carimg" src="images/car1.jpg" onmouseover="changeCar2Img()" onmouseout="changeCar1Img()" width="300" height="300"
+        alt=""> -->
+
+
+    <img  id="carimg" src="images/car1.jpg"
+     onmouseover="changeImg('in', this)"
+      onmouseout="changeImg('out' , this)" width="300" height="300"
+    alt="">
+
+    <!-- 
+    <img id="bulbImg" src="./images/bulboff.png" width="300" height="400" alt="">
+    <br>
+
+
+    <button onclick="switcBulb(this)">SWITCH</button>
+
+ -->
+
+
+    <!-- <input type="text"  onfocus="fieldEvent('focus' ,this)" onblur="fieldEvent('blur' , this)"
+        placeholder="ENTER YOUR NAME...">
+ -->
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

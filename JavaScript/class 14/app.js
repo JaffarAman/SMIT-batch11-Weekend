@@ -2,16 +2,16 @@
 
 
 // Events
-function greet(userName) {
-    console.log("userName", userName)
-    alert("HELLO CLASS.." + userName)
-}
+// function greet(userName) {
+//     console.log("userName", userName)
+//     alert("HELLO CLASS.." + userName)
+// }
 
 // greet()
 
 // console.log(document)
 
-function saveUserName() {
+// function saveUserName() {
     // // Read -- GET Value
     // var userName = document.getElementById("userName")
     // console.log("userName", userName.value)
@@ -21,10 +21,10 @@ function saveUserName() {
     // console.log("userName", userName.value)
 
 
-    var userName = document.getElementById("userName")
-    userName.value = "Jaffar Aman"
+//     var userName = document.getElementById("userName")
+//     userName.value = "Jaffar Aman"
 
-}
+// }
 
 
 
@@ -38,6 +38,7 @@ function addValue(num) {
 function result() {
     var inputField = document.getElementById("inputField")
     inputField.value = eval(inputField.value)
+    // console.log(inputField.value = eval(inputField.value));
 }
 
 
@@ -54,12 +55,13 @@ function singleClearValue() {
 
 
 
-function getPara() {
-    var para = document.getElementById("para")
-    console.log("para", para.innerHTML)
-}
 
-function setPara() {
-    var para = document.getElementById("para")
-    para.innerHTML = "JAFFAR AMAN"
-}
+// function getPara() {
+//     var para = document.getElementById("para")
+//     console.log("para", para.innerHTML)
+// }
+
+// function setPara() {
+//     var para = document.getElementById("para")
+//     para.innerHTML = "JAFFAR AMAN"
+// }
