@@ -1,0 +1,41 @@
+.hide {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+
+}
+
+#quizContainer {
+    border: 1px solid red;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.header {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 60%; */
+}
+
+.body ol {
+    /* list-style-position: inside; */
+    /* list-style: none; */
+
+}
+.body h3{
+
+}
+
+.footer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+

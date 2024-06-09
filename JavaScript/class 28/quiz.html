@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startQuiz()">
+    <h1>QUIZ APP</h1>
+
+    <div id="quizContainer">
+        <!-- header -->
+        <div class="header">
+            <section>
+                <div>
+                    <span>Name:</span>
+                    <span id="userName">Jaffar</span>
+                </div>
+                <div>
+                    <span>
+                        Email:
+                    </span>
+                    <span id="userEmail">jaffar@gmail.com</span>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <span>Timer:</span>
+                    <span>00:00</span>
+                </div>
+            </section>
+        </div>
+
+        <!-- body -->
+        <div class="body">
+            <div>
+                <h3 id="htmlQues">
+                    </h1>
+            </div>
+            <div>
+                <ol id="htmlOptions">
+                    <!-- <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li>
+                    <li>HELLO WORLD</li> -->
+                </ol>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div id="counter">
+                <span id="currentCount" > 1 </span> / <span id="totalCount" ></span>
+            </div>
+
+            <div>
+                <button onclick="nextQues()">NEXT QUES</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="quiz.js"></script>r
+
+</html>
