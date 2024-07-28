@@ -1,0 +1,30 @@
+download nodejs
+open cmd and type node -v
+type npm -v and check version
+
+
+npm i --global firebase-tools
+firebase -V
+
+
+go to your project  (open cmd root level)
+firebase login
+
+firebase init
+select your services
+select your project
+public =>y
+index.html => y
+github => n
+
+
+replace your index.html file to public folder
+
+
+firebase deploy
+
+
+
+
+
+
